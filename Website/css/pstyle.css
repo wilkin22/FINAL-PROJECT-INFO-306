@@ -1,0 +1,67 @@
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*this section contain our product right under the banner image*/
+.ourp{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.content{
+    background-color: black;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    text-align:  justify;
+    
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*this is the style for our heading in or phone list*/
+.plist{
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: cursive;
+    color: green;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.but >button{
+    background-color: black;
+    font-size: 2rem;
+    border-radius: 3rem;
+    margin-left: 35rem;
+    color:rgb(236, 230, 230);
+}
+/*images in our product*/
+.phones{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.phones >div >img{
+    width: 10rem;
+    height: 8.5rem;
+
+}
+
+.phones >div{
+    width: 10rem;
+    height: 10rem;
+    background-color: gainsboro;
+    border: 0.2rem solid rgb(224, 215, 176);
+}
+
+/*this is our product prices */
+.phones >div #price{
+    position: relative;
+    bottom: 1rem;
+    text-align: center;
+    color: rgb(247, 241, 241);
+    background-color: black;
+}
+

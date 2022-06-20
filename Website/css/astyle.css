@@ -1,0 +1,79 @@
+/*This is our About Us heading styling*/
+.about{
+    background-color: black;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    position: relative;
+    bottom: 10rem;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+
+/*this is our content styling*/
+.content1{
+    text-align: center;
+    font-size: 2rem;
+    background-color: black;
+    position: relative;
+    bottom: 5rem;
+}
+
+/*this section contain Our team photo*/
+.team{
+    background-color: rgb(7, 4, 0);
+}
+
+.team >h3{
+    font-size: 3rem;
+    text-align: center;
+    color: brown
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*this is our team member photo*/
+.member{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+    
+}
+
+/*this is the div that our member photo is place in*/
+.member >div{
+    width: 18rem;
+    height: 18rem;
+    background-color: rgb(161, 239, 245);
+    text-align: center;
+    border-bottom-left-radius: 4rem;
+}
+
+/*this is our team photo style*/
+
+.member >div >img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 7.5rem;
+    position: relative;
+    bottom: 5rem;
+   
+}
+
+/*This is the style for the text under our team photo*/
+
+.member >div >h4{
+    position: relative;
+    bottom: 5rem;
+    color: rgb(3, 0, 0);
+    font-size: 1.2rem;
+}
+
+.member >div >p{
+    position: relative;
+    bottom: 4rem;
+    color: rgb(2, 0, 0);
+    font-size: 1.2rem;
+}
+
+
